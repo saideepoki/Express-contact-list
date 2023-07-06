@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+#body-heading {
+    text-align: center;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: gray;
+} 
+
+.contacts {
+  display: flex;
+}
+#contact-list {
+  margin-left: 27%;
+  width: 80%;
+}
+
+#contact-list li{
+     height: auto;
+     width: 50%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    margin-bottom: 2px;
+  background-color: cornflowerblue;
+}
+
+#contact-list li:hover {
+  background-color: gray;
+}
+
+
+#contact-list li p {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  margin-top: 4px;
+}
+
+#names {
+  flex: 1;
+  margin-left: 5px;
+}
+
+#phones {
+  flex: 1;
+  margin-left: 200px;
+}
+
+#form {
+  text-align: center;
+  margin-left: -1px;
+}
+
+input[type="text"] {
+  margin-right: 2px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 7px;
+  width: 205px;
+}
+
+button[type="submit"] {
+  padding: 7px;
+  width: 70px;
+  background-color: gray;
+  color: white;
+}
+
+.delete-button {
+  margin-right: -25px;
+    margin-top: 9px;
+}
+
+.delete-button i {
+  color: red;
+  font-size:1.1rem;
+}
