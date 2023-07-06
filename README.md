@@ -16,4 +16,4 @@ This is a basic Express server that allows you to create and delete contacts. It
 
 ## Usage
 Start the server by running ```node index.js```.
- The server will be available ``` http://localhost:8000/ ```
+ The server will be available at ``` http://localhost:8000/ ```
